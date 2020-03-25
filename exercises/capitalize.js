@@ -9,6 +9,16 @@
 
 // Your code:
 
+const capitalize = (str) => {
+    const up = str[0].toUpperCase();
+    const low = str.slice(1, str.lenght).toLowerCase();
+    const upAndLow = `${up}${low}`;
+    return upAndLow;
+}
+
+console.log(capitalize('dfgrJORFzsdsZ'));
+
+
 //* Begin of tests
 const assert = require('assert');
 

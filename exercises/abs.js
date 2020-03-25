@@ -11,6 +11,18 @@
 
 // Your code:
 
+const abs = (current) => {
+    if (current > 0){
+        return current;
+    }
+    else{
+        const absCurrent = 0 - current;
+        return absCurrent;
+    }
+}
+
+console.log(abs(-35.0865));
+
 //* Begin of tests
 const assert = require('assert');
 

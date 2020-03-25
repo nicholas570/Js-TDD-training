@@ -8,6 +8,11 @@
 
 // Your code:
 
+const words = (str) => {
+    const splittedArray = str.split(' ');
+    return splittedArray;
+}
+
 //* Begin of tests
 const assert = require('assert');
 

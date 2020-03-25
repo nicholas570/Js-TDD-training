@@ -9,6 +9,10 @@
 
 // Your code:
 
+const sameSign = (a, b) => {
+    return Math.sign(a) == Math.sign(b) ? true : false;
+}
+
 //* Begin of tests
 const assert = require('assert');
 

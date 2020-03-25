@@ -10,10 +10,26 @@
  *
  */
 
-// Your code:
+//Your code:
+
+const jadenCase = (str) => {
+    const strArray = str.split(' ');
+    let result = '';
+    for (let current of strArray){
+        const toUp = current.slice(0, 1).toUpperCase();
+        const toLow = current.slice(1, current.length);
+        result = `${toUp}${toLow}`;
+    }
+    return result;  
+}
+
+
+
+
 
 //* Begin of tests
 const assert = require('assert');
 
-assert.fail('You must write your own tests');
+assert.strictEqual(jadenCase('str'), 'Str');
+assert.strictEqual(jadenCase('qsdqsdqsd'), 'Qsdqsdqsd');
 // End of tests */

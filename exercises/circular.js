@@ -9,6 +9,13 @@
 
 // Your code:
 
+const circular = {
+  circular: 'boomer'
+}
+
+circular.circular = circular;
+console.log(circular);
+
 //* Begin of tests
 const assert = require('assert');
 
