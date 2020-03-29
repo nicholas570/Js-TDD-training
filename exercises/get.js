@@ -21,13 +21,6 @@ const get = (key) => sourceObject[key];
 
 
 
-// for (const property in object) {
-//   console.log(`${property}: ${object[property]}`);
-// }
-
-
-
-
 
 //* Begin of tests
 const assert = require('assert');

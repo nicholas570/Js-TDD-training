@@ -29,9 +29,7 @@ const keepFirstLast = (str) => {
     return slice;
 }
 
-console.log(keepFirstLast('dormir'));
-console.log(keepLast('dormir'));
-console.log(keepFirst('dormir'));
+
 
 //* Begin of tests
 const assert = require('assert');

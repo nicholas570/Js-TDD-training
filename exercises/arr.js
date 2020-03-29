@@ -10,7 +10,7 @@
 
 const arr = [4, '2'];
 
-console.log(arr);
+
 
 
 //* Begin of tests

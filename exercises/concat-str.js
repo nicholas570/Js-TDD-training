@@ -10,7 +10,6 @@
 
 const concatStr = (str1, str2) => str1.concat(str2);
 
-console.log(concatStr('man', 'ger'));
 
 //* Begin of tests
 const assert = require('assert');

@@ -16,7 +16,6 @@ const capitalize = (str) => {
     return upAndLow;
 }
 
-console.log(capitalize('dfgrJORFzsdsZ'));
 
 
 //* Begin of tests

@@ -10,7 +10,6 @@
 
 const add = (a, b) => a + b;
 
-console.log(add(45, 21));
 
 //* Begin of tests
 const assert = require('assert');

@@ -17,14 +17,12 @@ const cutFirst = (str) => {
     return slice;
 }
 
-console.log(cutFirst('manger'));
 
 const cutLast = (str) => {
     const slice = str.slice(0, str.length - 2);
     return slice;
 }
 
-console.log(cutLast('dormir'));
 
 const cutFirstLast = (str) => {
     const first = str.slice(2, str.length);
@@ -32,7 +30,7 @@ const cutFirstLast = (str) => {
     return last;
 }
 
-console.log(cutFirstLast('courir'));
+
 
 //* Begin of tests
 const assert = require('assert');

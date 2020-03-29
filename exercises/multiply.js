@@ -29,7 +29,6 @@ const multiply = (a, b) => {
   return result;
 }
 
-console.log(multiply(123, 3));
 
 
 

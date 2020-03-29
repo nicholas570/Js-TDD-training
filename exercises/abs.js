@@ -21,7 +21,6 @@ const abs = (current) => {
     }
 }
 
-console.log(abs(-35.0865));
 
 //* Begin of tests
 const assert = require('assert');
